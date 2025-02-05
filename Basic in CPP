@@ -8,7 +8,7 @@ int main(){
     return 0;
     */
     
-    //DataTypes  int,long,long,float,double,string,char
+    //DATATYPES  int,long,long,float,double,string,char
     /*
     int x = 10;
     cout << x<<endl;
@@ -36,7 +36,7 @@ int main(){
     //cout << ch;
     
     //////////////////////////////////////
-    
+    //IF-ELSE STATEMENTS
     //Write a Program that takes an input of age and Prints if you are adult or not
     
     /*
@@ -112,7 +112,7 @@ int main() {
 	else{
 	    cout<<"Sunday";
 	}
-	*/
+	*/           //SWITCH CASES
 	int day;
 	cin >> day;
 	switch(day){
@@ -140,6 +140,25 @@ int main() {
 	        cout<<"Inavalid check"<<endl;
 	}
 	cout<<"invalid";
+        //ARRAYS
+	/*
+	int arr[3];
+	cin >> arr[0] >> arr[1] >> arr[2];
+	arr[1]+=8;
+	cout<<arr[1];
+	*/
+	
+	//2D ARRAYS
+	/*
+	int arr[3][5];
+	arr[2][3]=90;
+	cout<<arr[2][1];
+	*/
+	
+	//For loops  it works like this first Intialize then next check the condition then next print statement after that it increments the value
+	for(int i=1;i<=5;i++){
+	    cout<<"Priya"<<endl;
+	}
 	return 0;
 }
 
