@@ -1,0 +1,82 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    /*
+    int x, y;
+    cin >> x >> y;
+    cout << "Value of X: " << x << " Value of y: " << y << " Sum of two numbers is: " << x + y << endl;
+    return 0;
+    */
+    
+    //DataTypes  int,long,long,float,double,string,char
+    /*
+    int x = 10;
+    cout << x<<endl;
+    
+    long y = 10000;
+    cout << y<<endl;
+    
+    float p = 9.05678668;
+    cout<<p;
+    */
+    
+    //string s = "Hello world";
+    //cout << s;
+    
+    //output Hello world
+    
+    /*
+    string p ;
+    getline(cin,p);
+    cout << p;
+    */
+    //It only give Hello as output to get complete input string give getLine(cin,p); this getline print the words in a single line only if you give two lines sentences it does not print the second lines
+    
+    //char ch = 'p';
+    //cout << ch;
+    
+    //////////////////////////////////////
+    
+    //Write a Program that takes an input of age and Prints if you are adult or not
+    
+    /*
+    
+    int age;
+    cin >> age;
+    if(age<18){
+        cout<<"Not Adult"<<endl;
+    }
+    else{
+        cout<<"Adult";
+    }
+    
+    return 0;
+    */
+    
+    //Grading Systems
+    /*
+    
+    int m;
+    cin >> m;
+    if(m<25){
+        cout<<"F"<<endl;
+    }
+    else if(m>=25 && m<=44){
+        cout<<"E"<<endl;
+    }
+    else if(m>=45 && m<=49){
+        cout<<"D"<<endl;
+    }
+    else if(m>=50 && m<=59){
+        cout<<"C"<<endl;
+    }
+    else if(m>=60 && m<=79){
+        cout<<"D"<<endl;
+    }
+    else if(m>=80 && m<=100){
+        cout<<"A"<<endl;
+    }
+    return 0;
+    
+    */
+}
